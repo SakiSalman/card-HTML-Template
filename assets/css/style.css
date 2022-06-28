@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+/* FRONT SIDE CSS STARTS */
+.card-wrap-area{
+    background-image: url(../images/card_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+padding-top: 0px;
+padding-right: 40px;
+padding-left: 40px;
+padding-bottom: 40px;
+    box-sizing: border-box;
+
+}
+.header-wrap {
+    padding-top: 571px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 92%;
+}
+.header-wrap::before {
+    content: " ";
+    background-image: url(../images/header-backgrond-img.jpg);
+    position: absolute;
+    left: 0;
+    top: 86%;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px 309px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.company-tag {
+    z-index: 1;
+    position: relative;
+    top: 10%;
+    color: #fff;
+    padding-top: 24px;
+}
+.company-tag {
+    z-index: 1;
+    position: relative;
+    top: 10%;
+    color: #fff;
+    padding-top: -4px;
+}
+span.avater-circle1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(115, 113, 113);
+    z-index: 1003;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    left: -20px;
+    top: 22px;
+}
+span.avater-circle2 {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    z-index: 1003;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+.image-wrap {
+    position: relative;
+    top: -159px;
+    z-index: 9999;
+    left: -16px;
+}
+.card-body-wrap.bg-white {
+    position: relative;
+    top: -211px;
+    width: 91.9%;
+}
+.name-area h2 {
+    padding-top: 74px;
+}
+.name-area p {
+    font-size: 20px;
+}
+.content-middle{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+tbody tr td {
+    font-size: 24px;
+}
+.barcode-wrap {
+    padding-top: 30px;
+    padding-bottom: 62px;
+}
+.card-footer {
+    background: blue;
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* FRONT SIDE CSS ENDS */
+
+
+
+
+
+/* BACK SIDE CSS STARTS */
+/* card background image */
+
+.background_card_wrap {
+    background-image: url('../images/card_bg.jpg');
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 103px 0px 70px 0px;
+    position: relative;
+}
+
+/* card position css */
+
+.card_details {
+    position: relative;
+    top: 89%;
+    left: 25px;
+    width: 86%;
+    padding: 0 20px !important;
+    margin: 338px 0px 0px 0px;
+}
+
+/* card wrap top custom css */
+.card_wrap_top {
+    position: relative;
+    background-color: #fff;
+    padding: 40px 0px;
+    border-top: 22px solid #082B4C;
+}
+
+
+/* card-wrap-clip-path */
+
+.card_wrap_top::after {
+    content: '';
+    clip-path: polygon(0 0, 0% 100%, 40% 50%);
+    background-color:#3291FF;
+    position: absolute;
+    width: 100px;
+    height: 134px;
+    top: 41%;
+    left: 0px;
+}
+.card_wrap_top::before {
+    content: '';
+    clip-path: polygon(100% 0, 100% 100%, 60% 50%);
+    background-color: #3291FF;
+    position: absolute;
+    width: 100px;
+    height: 134px;
+    top: 41%;
+    right: 0px;
+}
+
+/* Description about person */
+
+.card-text ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.card-text ul li {
+    position: relative;
+    padding: 0px 18px 0px 60px;
+    text-align: start;
+}
+
+/* description image icon */
+
+.card-text ul li::before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/Screenshot\\(8\).png');
+    top: 3px;
+    left: 26px;
+    width: 23px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-text ul li p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.card_wrap_top h3{
+    color: #082B4C;
+}
+.card_wrap_top h5{
+    color: #082B4C;
+}
+
+
+
+
+/* card_wrap_bottom custom css */
+
+.card_wrap_bottom{
+    background-image: url('../images/card_next.jpg');
+    background-position: top ;
+    background-size: 100% 100%;
+    padding: 30px 40px;
+    background-repeat: no-repeat;
+}
+
+.card_wrap_bottom h2{
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+.card_wrap_bottom h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.card_wrap_bottom p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #3291FF;
+}
+
