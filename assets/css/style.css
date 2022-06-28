@@ -229,7 +229,7 @@ tbody tr td {
 .card-text ul li::before {
     content: '';
     position: absolute;
-    background-image: url('../images/Screenshot\\(8\).png');
+    background-image: url('../images/Screenshot\ \(8\).png');
     top: 3px;
     left: 26px;
     width: 23px;
