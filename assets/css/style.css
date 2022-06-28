@@ -90,6 +90,30 @@ span.avater-circle2 {
     top: -211px;
     width: 91.9%;
 }
+.card-body-wrap.bg-white::before {
+    content: '';
+    display: inline-block;
+    width: 44.66px;
+    height: 161.03px;
+    position: absolute;
+    left: 0%;
+    top: 32%;
+    background: #3291FF;
+    clip-path: polygon(100% 50%, 0px 0px, 0px 100%);
+    z-index: 99;
+}
+.card-body-wrap.bg-white::after {
+    content: '';
+    display: inline-block;
+    width: 44.66px;
+    height: 161.03px;
+    position: absolute;
+    right: 0%;
+    top: 32%;
+    background: #3291FF;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+    z-index: 99;
+}
 .name-area h2 {
     padding-top: 74px;
 }
